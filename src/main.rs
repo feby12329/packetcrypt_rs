@@ -91,7 +91,7 @@ async fn ah_main(config: &str, handler: &str) -> Result<()> {
     util::sleep_forever().await
 }
 
-const DEFAULT_ADDR: &str = "pkt1q6hqsqhqdgqfd8t3xwgceulu7k9d9w5t2amath0qxyfjlvl3s3u4sjza2g2";
+const DEFAULT_ADDR: &str = "pkt1qrlr3fufjkhv2d9ddlnlw0tn9fua00uyapelq5s";
 
 fn warn_if_addr_default(payment_addr: &str) -> &str {
     if payment_addr == DEFAULT_ADDR {
