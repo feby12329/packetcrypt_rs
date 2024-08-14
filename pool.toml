@@ -2,7 +2,7 @@
 paymaker_http_password = "you'll want this to be a secret"
 
 # URL of the pool master, used for getting configuration and work
-master_url = "http://your.main.pool.server/master"
+master_url = "http://pool.bizmartdar.dev/master"
 
 # Store the data here
 root_workdir = "./datastore/pool"
@@ -31,7 +31,7 @@ root_workdir = "./datastore/pool"
     input_queue_len = 256
 
     # The public URL of this ann handler
-    public_url = "http://this.server/submit"
+    public_url = "http://pool.bizmartdar.dev/submit"
 
     # Bind to this port
     # NOTE: To bind low ports with non-root user:
